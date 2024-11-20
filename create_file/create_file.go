@@ -7,10 +7,13 @@ import (
 )
 
 // TODO: Refactor to take multpile inputs message args
+// TODO: file content into empy struct to see!
 type io_input struct {
 	outpuleFile []string
 	message     []string
 }
+
+type file_conent struct{}
 
 func main() {
 	// Ensure sufficient command-line arguments
